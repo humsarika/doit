@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Task({Goal, Description , index, deleteTask}) {
+function Task({ Description , index, deleteTask}) {
 
   return (
     <div className='task'>
       <div>
-        <p>{Goal}</p>
+        {/* <p>{Goal}</p> */}
         <span>{Description}</span>
 
       </div>

@@ -1,27 +1,31 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,700;0,900;1,800&display=swap');
-*{
+body{
   margin: 0%;
   padding: 0%;
-  
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
 }
-body{
-  background: #ffffff;
-}
-nav{
-  background: #00a347;
-  font-weight: 900;
-  font-size: 20px;
-  color: white;
+  nav{
+  background: transparent;
+  font-weight: 700;
+  font-size: 3.5rem;
+  color: rgb(0, 0, 0);
   text-align: center;
 }
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .container {
-  background: #989e9d6f;
-  width: 50%;
-  margin: auto;
-  min-height: 100vh;
-  padding: 4vmax 8vmax;
+  margin-top: 5%;
+  background: #dbdbdb56;
+  width:40%;
+
+  min-height: 60vh;
+  padding: 6vmax 4vmax;
   box-sizing: border-box;
+  border-radius: 2%;
 }
 .container > form{
   display: flex;
@@ -44,7 +48,7 @@ input , textarea, button{
 button {
   border: none;
   cursor: pointer;
-  background-color: #00a347;
+  background: linear-gradient(270deg, #d53369 0%, #daae51 100%);
   color: #ffffff;
 }
 .task{
@@ -76,4 +80,14 @@ button {
 .task button:hover{
   background: red;
 
+}
+@media screen and (max-width:426px) {
+  nav{
+    font-size: 2rem;
+  }
+  .container{
+    margin-top: 100px;
+    width: 80%;
+  }
+  
 }
