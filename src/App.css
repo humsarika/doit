@@ -81,6 +81,16 @@ button {
   background: red;
 
 }
+@media screen and (max-width:800px) {
+  nav{
+    font-size: 2.5rem;
+  }
+  .container{
+    margin-top: 150px;
+    width: 70%;
+  }
+  
+}
 @media screen and (max-width:426px) {
   nav{
     font-size: 2rem;
